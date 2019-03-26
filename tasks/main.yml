@@ -25,6 +25,7 @@
   register: wkhtmltox_installed
   failed_when: false
   changed_when: no
+  check_mode: no
 
 - name: Download and install wkhtmltopdf only if not already present at any version
   apt:
