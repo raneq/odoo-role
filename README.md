@@ -65,9 +65,9 @@ odoo_role_odoo_db_name: odoo
 # This not a DB user password, but a password for Odoo to deal with DB.
 odoo_role_odoo_db_admin_password: 1234
 # Whether to populate db with example data or not.
-# Use boolean values (True or False) instead of strings,
-#+ as "" is False, but non-empty strings as "True" and "False" are True.
-odoo_role_demo_data: False
+# Use boolean values (true or false) instead of strings,
+#+ as "" is false, but non-empty strings as "true" and "false" are true.
+odoo_role_demo_data: false
 ```
 
 * Core modules list to install/update
